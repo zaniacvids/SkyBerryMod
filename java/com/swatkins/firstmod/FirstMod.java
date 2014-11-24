@@ -27,8 +27,10 @@ public class FirstMod
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-    	key = new ItemKey();
+    	ItemKey goldKey = new ItemKey("goldKey");
+    	ItemKey key = new ItemKey("key");
     	
-    	GameRegistry.registerItem(key, "Key");
+    	GameRegistry.registerItem(goldKey, "GoldKey");
+    	GameRegistry.registerItem(key, "key");
     }
 }
