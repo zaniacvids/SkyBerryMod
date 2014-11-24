@@ -1,0 +1,16 @@
+[
+{
+  "modid": "swatkins_firstmod",
+  "name": "First Mod",
+  "description": "","
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["swatkins"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
