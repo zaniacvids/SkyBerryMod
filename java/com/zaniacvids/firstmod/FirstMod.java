@@ -1,4 +1,4 @@
-package com.swatkins.firstmod;
+package com.zaniacvids.firstmod;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -13,7 +13,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @Mod(modid = FirstMod.MODID, version = FirstMod.VERSION)
 public class FirstMod
 {
-    public static final String MODID = "swatkins_firstmod";
+    public static final String MODID = "zaniacvids_firstmod";
     public static final String VERSION = "1.0";
     
     public static Item key;

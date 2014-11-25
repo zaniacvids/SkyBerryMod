@@ -1,13 +1,13 @@
 [
 {
-  "modid": "swatkins_firstmod",
+  "modid": "zaniacvids_firstmod",
   "name": "First Mod",
   "description": "","
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["swatkins"],
+  "authorList": ["zaniacvids"],
   "credits": "",
   "logoFile": "",
   "screenshots": [],

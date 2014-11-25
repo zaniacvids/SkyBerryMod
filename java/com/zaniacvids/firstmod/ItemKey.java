@@ -1,4 +1,4 @@
-package com.swatkins.firstmod;
+package com.zaniacvids.firstmod;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
