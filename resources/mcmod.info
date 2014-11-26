@@ -1,16 +1,22 @@
 [
 {
-  "modid": "zaniacvids_firstmod",
-  "name": "First Mod",
-  "description": "","
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["zaniacvids"],
-  "credits": "",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+modid: "zaniacvids_firstmod",
+name: "SkyBerry Mod",
+description: "A mod which adds a new bush that yields skyberries.",
+version: "${version}",
+mcversion: "${mcversion}",
+url: "",
+updateUrl: "",
+authors: [
+"swatkins"
+],
+credits: "Art by my son!",
+logoFile: "",
+screenshots: [ ],
+parent: "",
+requiredMods: [
+"Forge"
+],
+dependencies: [ ]
 }
 ]

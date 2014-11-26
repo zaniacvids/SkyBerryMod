@@ -22,19 +22,30 @@ public class FirstMod
     public static ItemFood SkyBerryBlue;
     public static ItemFood SkyBerryStem;
     public static Block SkyBerryBush;
+    public static Item SkyBerrySeed;
+    public static ItemFood SkyBerryBunch;
     
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+    	
     	SkyBerryGreen = new ItemSkyBerryGreenFood(3, 0.3F, false);
     	SkyBerryBlue = new ItemSkyBerryBlueFood(3, 0.3F, false);
     	SkyBerryStem = new ItemSkyBerryStemFood(3, 0.3F, false);
 		SkyBerryBush = new SkyBerryBush();
+		SkyBerrySeed = new SkyBerrySeed(SkyBerryBush);
+		SkyBerryBunch = new SkyBerryBunchFood(3, 0.3F, false);
 		
 		GameRegistry.registerItem(SkyBerryGreen, "SkyBerryGreen");
 		GameRegistry.registerItem(SkyBerryBlue, "SkyBerryBlue");
 		GameRegistry.registerItem(SkyBerryStem, "SkyBerryStem");
 		GameRegistry.registerBlock(SkyBerryBush, "SkyBerryBush");
+		GameRegistry.registerItem(SkyBerrySeed, "SkyBerrySeed");
+		GameRegistry.registerItem(SkyBerryBunch, "SkyBerryBunch");
+		
+		GameRegistry.addShapelessRecipe(new ItemStack(FirstMod.SkyBerryBunch),
+				FirstMod.SkyBerryBlue, FirstMod.SkyBerryGreen, FirstMod.SkyBerryStem
+		);
     }
     
     @EventHandler

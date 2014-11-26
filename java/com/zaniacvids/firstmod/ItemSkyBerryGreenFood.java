@@ -12,7 +12,7 @@ public class ItemSkyBerryGreenFood extends ItemFood {
 		super(food, saturation, wolfFood);
 		setUnlocalizedName(FirstMod.MODID + "_" + name);
 		setTextureName(FirstMod.MODID + ":" + name);
-		setPotionEffect(Potion.hunger.id, 15, 10, 1F);
+		setPotionEffect(Potion.hunger.id, 10, 10, 1F);
 		setAlwaysEdible();
 	}
 	
