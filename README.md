@@ -12,6 +12,9 @@ Skyberry bushes yield 4 things:
 
 You can craft a **Skyberry Bunch** by using a Green Skyberry, Blue Skyberry and Skyberry Stem. A Skyberry Bunch will give all three potion effects (jump boost, hunger, nausea) when eaten.
 
+**UPDATE**
+There is now a Sky Berry Zombie (a normal Zombie that has eaten a Sky Berry). This is just an extended Zombie that has a new texture, turning it blue with white shirt and blue pants.
+
 ##LICENSE
 
 The MIT License (MIT)
