@@ -1,4 +1,6 @@
-package com.zaniacvids.firstmod;
+package com.zaniacvids.firstmod.items;
+
+import com.zaniacvids.firstmod.FirstMod;
 
 import net.minecraft.item.ItemFood;
 import net.minecraft.potion.Potion;

@@ -1,7 +1,9 @@
-package com.zaniacvids.firstmod;
+package com.zaniacvids.firstmod.blocks;
 
 import java.util.ArrayList;
 import java.util.Random;
+
+import com.zaniacvids.firstmod.FirstMod;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

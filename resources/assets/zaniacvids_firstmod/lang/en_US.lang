@@ -2,5 +2,9 @@ item.zaniacvids_firstmod_SkyBerryGreen.name=Green Sky Berry
 item.zaniacvids_firstmod_SkyBerryBlue.name=Blue Sky Berry
 item.zaniacvids_firstmod_SkyBerryStem.name=Sky Berry Stem
 tile.zaniacvids_firstmod_SkyBerryBush.name=Sky Berry Bush
-item.zaniacvids_firstmod_SkyBerrySeed.name=Sky Berry Seed
+item.zaniacvids_firstmod_SkyBerrySeed.name=Sky Berry Seeds
 item.zaniacvids_firstmod_SkyBerryBunch.name=Sky Berry Bunch
+
+item.zaniacvids_firstmod_diamond_bow.name=Diamond Bow
+
+entity.zaniacvids_firstmod.zanemob.name=Sky Berry Zombie

@@ -1,4 +1,6 @@
-package com.zaniacvids.firstmod;
+package com.zaniacvids.firstmod.items;
+
+import com.zaniacvids.firstmod.FirstMod;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
